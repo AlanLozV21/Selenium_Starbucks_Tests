@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Starbucks Suite]">
+  <parameter name="Gift Cards" value="GIFT CARDS"/>
+  <parameter name="Tea" value="TEA"/>
+  <parameter name="Social Impact" value="SOCIAL IMPACT"/>
+  <parameter name="Menu" value="MENU"/>
+  <parameter name="Coffee" value="COFFEE"/>
+  <parameter name="Blog" value="BLOG"/>
+  <parameter name="Coffeehouse" value="COFFEEHOUSE"/>
+  <parameter name="Starbucks Rewards" value="STARBUCKS REWARDS"/>
+  <test name="Test Case 1 - Check Navigation Bar(failed)">
+    <classes>
+      <class name="com.tae.training.test.StarbucksLandingTest">
+        <methods>
+          <include name="testStarbucksMenuProperties"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.tae.training.test.StarbucksLandingTest -->
+    </classes>
+  </test> <!-- Test Case 1 - Check Navigation Bar(failed) -->
+</suite> <!-- Failed suite [Starbucks Suite] -->

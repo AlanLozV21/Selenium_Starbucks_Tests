@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Starbucks Suite">
+	<parameter name="Coffee" value="COFFEE"/>
+	<parameter name="Tea" value="TEA"/>
+	<parameter name="Menu" value="MENU"/>
+	<parameter name="Coffeehouse" value="COFFEEHOUSE"/>
+	<parameter name="Social Impact" value="SOCIAL IMPACT"/>
+	<parameter name="Starbucks Rewards" value="STARBUCKS REWARDS"/>
+	<parameter name="Blog" value="BLOG"/>
+	<parameter name="Gift Cards" value="GIFT CARDS"/>
+	<test name="Test Case 1 - Check Navigation Bar">
+		<classes>
+			<class name="com.tae.training.test.StarbucksLandingTest"></class>
+			<class name="com.tae.training.test.StarbucksLandingTestDataProvider"></class>
+			<class name="com.tae.training.test.StarbucksLandingTestParameters"></class>
+		</classes>
+	</test>
+</suite>
+
+<!-- <suite name="Test Automation Example Suite">
+	<parameter name="stringA" value="This is my first "/>
+	<parameter name="stringB" value="test automation practice"/>
+	<test name="Test Case 1 - Check Header">
+		<classes>
+			<class name="com.tae.training.test.StarbucksLandingTest"></class>
+		</classes>
+		<groups>
+			<run>
+				<include name="grupo1"/>
+			</run>
+		</groups>
+	</test>
+</suite> -->
