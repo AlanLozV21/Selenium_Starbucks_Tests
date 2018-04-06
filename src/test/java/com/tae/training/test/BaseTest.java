@@ -4,6 +4,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
+import com.tae.training.pages.PerfectCoffeePage;
 import com.tae.training.pages.StarbucksLandingPage;
 import com.tae.training.pages.TAETrainingStarbucksPage;
 import com.tae.training.util.MyDriver;
@@ -12,6 +13,7 @@ public class BaseTest {
 	MyDriver myDriver;
 	
 	private StarbucksLandingPage starbucksLandingObject;
+	private PerfectCoffeePage perfectCoffeeObject;
 	private TAETrainingStarbucksPage objectTAETrainingStarbucksPage;
 	
 	@BeforeSuite(alwaysRun=true)
@@ -29,6 +31,10 @@ public class BaseTest {
 	
 	public StarbucksLandingPage getStarbucksLandingPage() {
 		return starbucksLandingObject;
+	}
+	
+	public PerfectCoffeePage getPerfectCoffeePage() {
+		return perfectCoffeeObject;
 	}
 	
 	public TAETrainingStarbucksPage getTAETrainingStarbucksPage( ) {

@@ -1,25 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1538" started-at="2018-04-03T20:24:46Z" finished-at="2018-04-03T20:24:47Z">
+  <suite name="Default suite" duration-ms="39" started-at="2018-04-06T14:13:31Z" finished-at="2018-04-06T14:13:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1538" started-at="2018-04-03T20:24:46Z" finished-at="2018-04-03T20:24:47Z">
-      <class name="com.tae.training.test.StarbucksLandingTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tae.training.test.StarbucksLandingTest@51081592]" name="beforeSuite" is-config="true" duration-ms="6484" started-at="2018-04-03T15:24:39Z" finished-at="2018-04-03T15:24:46Z">
+    <test name="Default test" duration-ms="39" started-at="2018-04-06T14:13:31Z" finished-at="2018-04-06T14:13:31Z">
+      <class name="com.tae.training.test.StarbucksLandingTestDataProvider">
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="9" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COFFEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[COFFEE]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testStarbucksMenuProperties()[pri:0, instance:com.tae.training.test.StarbucksLandingTest@51081592]" name="testStarbucksMenuProperties" duration-ms="1510" started-at="2018-04-03T15:24:46Z" finished-at="2018-04-03T15:24:47Z">
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="1" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TEA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testStarbucksMenuProperties -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tae.training.test.StarbucksLandingTest@51081592]" name="afterSuite" is-config="true" duration-ms="648" started-at="2018-04-03T15:24:47Z" finished-at="2018-04-03T15:24:48Z">
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="1" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MENU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MENU]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.tae.training.test.StarbucksLandingTest -->
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="1" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COFFEEHOUSE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[COFFEEHOUSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="1" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOCIAL IMPACT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SOCIAL IMPACT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="0" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STARBUCKS REWARDS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[STARBUCKS REWARDS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="2" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLOG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLOG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+        <test-method status="PASS" signature="verifyNavigationBar(java.lang.String, java.lang.String)[pri:0, instance:com.tae.training.test.StarbucksLandingTestDataProvider@62ee68d8]" name="verifyNavigationBar" duration-ms="1" started-at="2018-04-06T09:13:31Z" data-provider="Test Case 1 - Check Navigation Bar" finished-at="2018-04-06T09:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GIFT CARDS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GIFT CARDS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBar -->
+      </class> <!-- com.tae.training.test.StarbucksLandingTestDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
